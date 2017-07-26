@@ -1,0 +1,27 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "JWT Authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeonOperations/JWT-Authentication.git"
+  },
+  "author": "Hung Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeonOperations/JWT-Authentication/issues"
+  },
+  "homepage": "https://github.com/NeonOperations/JWT-Authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
